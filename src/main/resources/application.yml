@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+logging:
+  level:
+    root: info
+    org.springframework.web: info
+    org.springframework.security: debug
+    org.springframework.security.oauth2: debug
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
